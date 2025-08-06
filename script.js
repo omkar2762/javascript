@@ -64,10 +64,10 @@
 
 
 
- 2) even or odd number check 
- num=4
- consol.log(num%2===0 && "even" || "odd");
- op= even
+//  2) even or odd number check 
+//  num=4
+//  consol.log(num%2===0 && "even" || "odd");
+//  op= even
 
 
 // * if else 
@@ -233,4 +233,60 @@
 // let str = prompt("omkar:");
 // let result = str.replaceAll("k", "s");
 // console.log(result);
+
+                 
+
+
+
+
+
+//                                       string method 
+//  1. Convert input to uppercase
+//     let text = prompt("Enter :");
+// console.log("Uppercase:", text.toUpperCase());
+
+
+// 2. Convert input to lowercase
+//    let text = prompt("Enter a string:");
+// console.log("Lowercase:", text.toLowerCase());
+
+
+// 3. Print length of the string
+// let text = prompt("Enter a string:");
+// console.log("Length of the string:", text.length);
+
+
+// 4. Count how many times 'the' appears
+// let sentence = prompt("Enter a sentence:");
+// let count = sentence.toLowerCase().split("the").length - 1;
+// console.log("Occurrences of 'the':", count);
+
+
+// 5. Check if string ends with a specific word
+// let text = prompt("Enter a string:");
+// let word = prompt("Enter the word to check if it ends with:");
+// console.log("Ends with word?", text.endsWith(word));
+
+
+// 6. Check if string starts with a specific word
+// let text = prompt("Enter a string:");
+// let word = prompt("Enter the word to check if it starts with:");
+// console.log("Starts with word?", text.startsWith(word));
+
+
+// 7. Remove leading and trailing spaces
+// let text = prompt("Enter a string with spaces:");
+// console.log("Trimmed string:", text.trim());
+
+
+//  8. Replace spaces with hyphens
+//  let text = prompt("Enter a string:");
+// console.log("With hyphens:", text.replaceAll(" ", "-"));
+
+
+//  10. Split a sentence into words
+ let sentence = prompt("Enter a sentence:");
+ let words = sentence.split(" "); console.log("List of words:", words);
+
+?
 
