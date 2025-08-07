@@ -1,292 +1,390 @@
-// 1)Arithmatic operator 
-// a=10
-// b=20
-// console.log(a+b);
-// op=30
+//                          JavaScript Practice Questions
 
-// 2) find reminder 
-// console.log(17%3);
-// op=2
-
-// 3) multiply three number 
-// console.log(2*3*4);
-// op=24
-
-// 4)subtract 100 from 250 and diuvide 5
-// console.log (250-100) / 5);
-// op=30
-
-// 5) what will be the output
-// let a=5;
-// let b=++a;
-// consol.log(a,b);
-//  op=6
+// 1. Conditional Statement Questions 
 
 
-// 6)  use += operator add 10 varable ineteliza as s20
-// let x =20;
-// x + = 10;
-// consol.log (x);
-// OP=30
+// 1. Check if a number is positive or negative.
+     
 
-// 7)use *= double the value of varable inetelize as 7
-// let y=7;
-// y *=2;
-// console.log(y);
-// op=14
-
-
-// 8)  what will be the output
-// let x=10;
-// x -=3;
-// console.log9(x);
-// op=7
-
-// 9)  check if two number are equal using ==or==
-// console.log(10 == '10');
-// console.log(10=="10");
-
-
-//     10) greater number 
-// console.log(25>15);
-
-   
-// 11) compare two number and print true 
-// a=10
-// b=20
-// console.log(a<b);
-// op=true
-
-
-// 12)what is the output 
-// consol.log (5=="5")
-//  op=equal
-
-
-
-//  2) even or odd number check 
-//  num=4
-//  consol.log(num%2===0 && "even" || "odd");
-//  op= even
-
-
-// * if else 
-
-    // 1)even or odd checker 
-    // num=prompt("enter a number")
-    // if (num % 2 == 0){
-    //     consol.log("this is even")
-    // }
-    // else{
-    //     consol.log("the number is odd")
-    // }
-
-
-
-    // 2)positive negative or zero
-    // let num=prompt("enter any number:");
-    // if (num>0)  {
-    //     consol.log("number is positive")
-    // }
-    // else {
-    //     if (num<0){
-    //         console.log("number is negative");
-    //     }else{
-    //         consol.log("number is zero");
-    //     }
-    // }
-
-
-
-    // 4)greater of two number 
-
-    // a=prompt("enter first number:");
-    // b=prompt("enter second number:");
-
-    // if (a>b) {
-    //     consol.log(a+"is greater");
-    // } else{
-    //     consol.log(b+"is greater");
-    // }
-
-
-
-
-    // 7) age eligibility for voting 
-
-    // let age =prompt("enter your age :");
-    // if (age >= 18 ) {
-    //     consol.log("you are eligibal to vote ");
-
-    //  } else {
-    //     consol.log(you arre not elegibal to vote )
-    //  }
-
-
-
-
-                                   TERNERY OPERATOR 
-
-
-// 1) check number even or odd in ternery OPERATOR
-// let num = 4;
-// let result =(num% 2==0) "even ": "odd";
-// consol.log(result);
-
-
-// 2) elegible for waight 
-// let age =20 ;
-// result =(age>=18) ? "eligible for vote" ;: "not eligible to vote"
-
-// 3)print greater num in ternary OPERATOR
-// let a=10 ,b=20;
-// consol.log(a>b ? a: b ) ;
-
-// 4) check divisible by 5 
-// let num = 15 
-// consol.log(num % 5===0 ? "divisible by 5 " : "not divisible by 5 ");
-
-
-
-                                        //   NESTED IF ELSE 
-  
-// 1)check num positive ,negative or zero 
-
-//  let num = -3;
-// if (num > 0) {
-//   console.log("Positive");
-// } else {
-//   if (num < 0) {
-//     console.log("Negative");
-//   } else {
-//     console.log("Zero");
+//   if (num > 0) {
+// console.log ("positive");
 //   }
-// }
+//   else if (num<0) {
+//     console.log("negative");
+//   }
+//   else {
+//     console.log ("zero");
+//   }
 
 
-// 2) largest of three num 
+// 2. Check if a number is even or odd
+  //  if (%2===0);{
+  //  console.log("even");
+  //  } else{
+  //   console.log("odd");
+  //  }
 
-// let a=5,b=15,c=10 ;
-// if (a>b){
-//     if (a>c) consol.log(a);
-//     else consol.log(c);
-// } else {
-//   if (b>c) consol.log (b);
-//   else consol.log(c);
-// }
+// 3. Check if a person is eligible to vote (age >= 18)
 
-
-
-// 4)check if even if divisible by 4
-
-// num=8;
-// if (num %2===0 ){
-//   if (num % 4 === 0) consol.log("Even but not divisible by 4");
+// if age ( age >=18) {
+// console.log("eligible to vote");
 // }else{
-//   consol.log("not even");
+//   console.log("not elegible to vote ");
 // }
 
 
+// 4 Find the greatest of two numbers.
+// let a=30 , b = 10;
+// if (a>b) {
+//   console.log(a+"is greater");
+// } else{
+//   consol.log(b+"is smaller")
+// }
 
-// 10 Easy Looping Programming Questions for Logical Practice
+// 5. Find the greatest of three numbers
+// let a = 10, b = 20, c = 15;
+// if (a > b && a > c) {
+//   console.log(a + " is greatest");
+// } else if (b > c) {
+//   console.log(b + " is greatest");
+// } else {
+//   console.log(c + " is greatest");
+// }
 
-// 1) Print numbers from 1 to 10
-// for (let i = 1; i <= 10; i++) {
-//   console.log(i);
+// 6. Check if a year is a leap year or not
+// let year = 2024;
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//   console.log("Leap year");
+// } else {
+//   console.log("Not a leap year");
+// }
+
+// 7. Check whether a character is a vowel or consonant
+// let char = 'e';
+// if ("aeiouAEIOU".includes(char)) {
+//   console.log("Vowel");
+// } else {
+//   console.log("Consonant");
+// }
+
+// 8. Assign grades based on marks (A, B, C, F)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 9. Check if a number is divisible by 5 and 11 
+
+// if (%5===O && % 11 === 0){
+//   console.log(divisible by 5 and 11);
+// }else{
+//   console.log(not divisible by 5 and 11);
 // }
 
 
-// 2️) Print even numbers between 1 and 20
-// for (let i = 2; i <= 20; i += 2) {
-//   console.log(i);
-// }
-
-
-// 3️) Sum of first N natural numbers
-// let n = parseInt(prompt("Enter a number:"));
-// let sum = 0;
-// for (let i = 1; i <= n; i++) {
-//   sum += i;
-// }
-// console.log("Sum =", sum);
-
-
-
-// 10 Easy String Questions Using String Methods
-
-
-// 1️) Convert a string to uppercase
-// let str = prompt("Enter a string:");
-// console.log(str.toUpperCase());
-
-// 2️) Convert a string to lowercase
-// let str = prompt("omkar:");
-// console.log(str.toLowerCase());
- 
-
-// 3) Print the length of a string
-// let str = prompt("omkar:");
-// console.log("Length of the string:", str.length);
-
-
-// 8️) Replace all spaces with hyphens using replace()
-// let str = prompt("omkar:");
-// let result = str.replaceAll("k", "s");
+// 10. Use ternary operator to check if a number is even or odd
+// let result = (num % 2 === 0) ? "Even" : "Odd";
 // console.log(result);
 
-                 
+                    
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
+                  
+
+
+//                              2. Loop Questions (for / while)
+
+
+
+
+// 1. Print numbers from 1 to 10
+// for ( let i=1 ; i<=10; i++){
+//   console.lopg("print");
+// }
+
+
+// 2. Print the sum of numbers from 1 to 100.
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//   sum += i;
+// }
+// console.log("Sum:", sum);
+ 
+
+// 4. Print the multiplication table of a number (e.g., 7)
 
 
 
 
 
-//                                       string method 
-//  1. Convert input to uppercase
-//     let text = prompt("Enter :");
-// console.log("Uppercase:", text.toUpperCase());
 
 
-// 2. Convert input to lowercase
-//    let text = prompt("Enter a string:");
-// console.log("Lowercase:", text.toLowerCase());
+// 5. Print reverse numbers from 10 to 1
+// for(i=1 ; i>1; : i--){
+// console.log(i);
+// }
 
 
-// 3. Print length of the string
-// let text = prompt("Enter a string:");
-// console.log("Length of the string:", text.length);
+// 6. Find the factorial of a number
 
 
-// 4. Count how many times 'the' appears
-// let sentence = prompt("Enter a sentence:");
-// let count = sentence.toLowerCase().split("the").length - 1;
-// console.log("Occurrences of 'the':", count);
 
 
-// 5. Check if string ends with a specific word
-// let text = prompt("Enter a string:");
-// let word = prompt("Enter the word to check if it ends with:");
-// console.log("Ends with word?", text.endsWith(word));
+// 7. Reverse a given number.
 
 
-// 6. Check if string starts with a specific word
-// let text = prompt("Enter a string:");
-// let word = prompt("Enter the word to check if it starts with:");
-// console.log("Starts with word?", text.startsWith(word));
 
 
-// 7. Remove leading and trailing spaces
-// let text = prompt("Enter a string with spaces:");
-// console.log("Trimmed string:", text.trim());
+// 8. Check if a number is a palindrome.
 
 
-//  8. Replace spaces with hyphens
-//  let text = prompt("Enter a string:");
-// console.log("With hyphens:", text.replaceAll(" ", "-"));
 
 
-//  10. Split a sentence into words
- let sentence = prompt("Enter a sentence:");
- let words = sentence.split(" "); console.log("List of words:", words);
+// 9. Find the sum of digits of a number.
 
-?
 
+
+
+
+// 10. Print Fibonacci series up to N terms.
+
+
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+                                //  10 Easy String Questions Using String Methods
+
+
+// 1. Take a string input and convert it to uppercase using a string method.
+
+// let string prompt("omkar");
+// console.log( "uppercase:", string.uppercase());
+
+
+// 2. Take a string input and convert it to lowercase
+
+// let string prompt("omkar");
+// console.log( "lowercase:", string.lowerrcase());
+
+
+// 3. Ask the user for a string and print its length
+// let str = prompt("omkarshinde:");
+// console.log("Length:", str.length);
+
+
+// 4. Count how many times the word 'the' appears
+
+
+
+
+
+
+
+// 5 Check if it ends with a particular word
+// let str = prompt(" ragivgandhi:");
+// let word = prompt("i:");
+// console.log("Ends with word:", str.endsWith(i));
+
+
+// 6. Check whether it starts with a specific word
+// let str = prompt(" ragivgandhi:");
+// let word = prompt("r:");
+// console.log("Ends with word:", str.endsWith(r));
+
+// 7. Remove leading and trailing spaces using trim()
+// let str = prompt("Enter a string with spaces:");
+// let trimmed = str.trim();
+// console.log("Trimmed string:", trimmed);
+
+// 8. Replace all spaces with hyphens -
+// let str = prompt("Enter a sentence:");
+// let replaced = str.replace(/ /g, "-");
+// console.log("With hyphens:", replaced);
+
+
+// 9. Print each character of name on a new line
+// let name = prompt("omkar:");
+// for (let i = 0; i < 5; i++) {
+//   console.log(name[omkar]);
+// }
+
+
+// 10. Split a string into a list of words
+// let str = prompt("Enter a sentence:");
+// let words = str.split(" ");
+// console.log("List of words:", words);
+
+
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                                      //  JavaScript Array Programming Questions
+
+
+//   1. Create an array and print all elements
+
+
+// let array =[1,2,3,4,5,];
+// console.log( array);
+
+
+// 2. Find the length of an array
+
+// let array =[1,2,3,4,5,];
+// console.log("Length of array:", arr.length);
+
+
+// 4. Add a new element to the end of the array
+
+// ArrayBuffer.pop (  enter arrey adding );
+// console.log(array);
+
+
+// 5. Remove the last element from the array
+
+// arr.pop();
+// console.log("After removing last element:", arr);
+
+
+// 6. Find the sum of all elements in a numeric array
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   sum += arr[i];
+// }
+// console.log("Sum of elements:", sum);
+
+
+// 7  Check if an element exists in an array
+
+
+
+// 8. Count how many even numbers are in the array
+// let evenCount = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 === 0) {
+//     evenCount++;
+//   }
+// }
+// console.log("Number of even elements:", evenCount);
+
+
+// 9. Print array elements in reverse order
+// let reversed = reverse(); 
+// console.log("Reversed array:", reversed);
+
+
+// 10. Find the largest number in an array
+// let max = arr[0];
+// for (let i = 1; i < arr.length; i++) {
+//   if (arr[i] > max) {
+//     max = arr[i];
+//   }
+// }
+// console.log("Largest number:", max);
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                            
+
+//                                                             JavaScript Function Programming Questions – Solutions
+
+// 1. Function to print 'Hello, World!'
+// javascript
+// Copy code
+// function sayHello() {
+//   console.log("Hello, World!");
+// }
+// sayHello();
+
+
+
+// 2. Function that takes two numbers and returns their sum
+// javascript
+// Copy code
+// function add(a, b) {
+//   return a + b;
+// }
+// console.log("Sum:", add(5, 3));
+
+
+
+// 3. Function that checks if a number is even or odd
+// javascript
+// Copy code
+// function checkEvenOdd(num) {
+//   return (num % 2 === 0) ? "Even" : "Odd";
+// }
+// console.log(checkEvenOdd(4));
+
+
+
+// 4. Function that returns the square of a number
+// javascript
+// Copy code
+// function square(num) {
+//   return num * num;
+// }
+// console.log("Square:", square(6));
+
+
+
+// 5. Function that takes a name as input and prints a greeting
+// javascript
+// Copy code
+// function greet(name) {
+//   console.log("Hello, " + name + "!");
+// }
+// greet("Omkar");
+
+
+
+// 6. Function that returns the largest of three numbers
+// javascript
+// Copy code
+// function largest(a, b, c) {
+//   return Math.max(a, b, c);
+// }
+// console.log("Largest:", largest(10, 25, 17));
+
+
+
+// 7. Function to calculate the factorial of a number
+
+
+
+
+
+
+// 8. Function that reverses a given string
+
+
+// 9. Function to check if a number is prime
+// javascript
+// Copy code
+// function isPrime(num) {
+//   if (num <= 1) return false;
+//   for (let i = 2; i <= Math.sqrt(num); i++) {
+//     if (num % i === 0) return false;
+//   }
+//   return true;
+// }
+// console.log("Is Prime?", isPrime(7));
+
+
+
+// 10. Function that counts the number of vowels in a string
